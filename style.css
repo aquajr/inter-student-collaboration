@@ -1,3 +1,5 @@
-h1, p { 
-    margin-left: 100px;
-} 
+.my-form {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
