@@ -1,3 +1,35 @@
-h1, p { 
+h1,p {
     margin-left: 100px;
+}
+h1 {
+    font-size: 70px;
+}
+p{
+    font-size: 40px;
+}
+span{
+    color: orange;
+}
+a { 
+    text-decoration: none;
 } 
+
+/* Navigation bar */
+nav { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gray;
+    } 
+nav ul li{
+    border: 1px lavender;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+}
+
+    /* Images */
+    img { 
+        height: 300px;
+        width: 450px;
+    }  
